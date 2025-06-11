@@ -11,7 +11,7 @@ class MiniTest < Formula
   def install
 
     ohai "Installing to #{bin}"
-    bin.install "homebrew-mini-test" => "ptree"
+    bin.install "target/release/homebrew-mini-test" => "ptree"
   end
 
   def caveats
