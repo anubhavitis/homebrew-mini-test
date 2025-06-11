@@ -15,6 +15,14 @@ class MiniTest < Formula
 
   def caveats
     <<~EOS
+      |
+      |
+      |
+      |
+      |
+      |
+      |
+      |
       Ptree installed
       ptree is a cli tool to print a tree of any charater with given length(default: 7)
       You can also use it to print a tree of any charater with given length in reverse order
@@ -25,15 +33,9 @@ class MiniTest < Formula
 
       To get more help, run:
         ptree --help
-
-      ** IMPORTANT **
-      To use ptree conveniently, you can create an alias by running:
-        echo 'alias ptree="$(brew --prefix)/bin/ptree"' >> ~/.bash_profile
-        source ~/.bash_profile
-        
-      or for Zsh users:
-        echo 'alias ptree="$(brew --prefix)/bin/ptree"' >> ~/.zshrc
-        source ~/.zshrc
+      |
+      |
+      |
     EOS
   end
 
