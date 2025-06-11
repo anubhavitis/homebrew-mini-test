@@ -44,4 +44,4 @@ brew tap anubhavitis/mini-test
 brew install mini-test
 ```
 
-not how I am tapping to ```anubhavitis/mini-test```, not ```anubhavitis/homebrew-mini-test``` that's just benefits of using right naming convention.
+note how I am tapping to ```anubhavitis/mini-test```, not ```anubhavitis/homebrew-mini-test``` that's just benefits of using right naming convention.
