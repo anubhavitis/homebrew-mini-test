@@ -4,7 +4,7 @@ class MiniTest < Formula
   desc "ptree is a cli tool to print a tree of any charater with given length(default: 7)"
   homepage "https://github.com/anubhavitis/homebrew-mini-test"
   url "https://github.com/anubhavitis/homebrew-mini-test/releases/download/1.0/homebrew-mini-test"
-  sha256 "7b03389c2ebf156a90facce96f98c85e2ddfdec6334e56320f3638dc8a6c7075"
+  sha256 "e115b1ca16fdf3f630abc0a6e1f8a313a9be6b249d8391e7c39e7cc8fdccc6c3"
   license ""
 
 
