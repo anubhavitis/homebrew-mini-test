@@ -3,15 +3,14 @@
 class MiniTest < Formula
   desc "ptree is a cli tool to print a tree of any charater with given length(default: 7)"
   homepage "https://github.com/anubhavitis/homebrew-mini-test"
-  url "https://github.com/anubhavitis/homebrew-mini-test/archive/refs/tags/1.0.tar.gz"
+  url "https://github.com/anubhavitis/homebrew-mini-test/releases/download/1.0/homebrew-mini-test"
   sha256 "7b03389c2ebf156a90facce96f98c85e2ddfdec6334e56320f3638dc8a6c7075"
   license ""
 
 
   def install
-
     ohai "Installing to #{bin}"
-    bin.install "target/release/homebrew-mini-test" => "ptree"
+    bin.install "homebrew-mini-test" => "ptree"
   end
 
   def caveats
