@@ -1,6 +1,5 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class MiniTest < Formula
   desc "ptree is a cli tool to print a tree of any charater with given length(default: 7)"
   homepage "https://github.com/anubhavitis/homebrew-mini-test"
@@ -8,19 +7,10 @@ class MiniTest < Formula
   sha256 "7b03389c2ebf156a90facce96f98c85e2ddfdec6334e56320f3638dc8a6c7075"
   license ""
 
-  # depends_on "cmake" => :build
-
-  # Additional dependency
-  # resource "" do
-  #   url ""
-  #   sha256 ""
-  # end
 
   def install
-    # Remove unrecognized options if they cause configure to fail
-    # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
-    system "./configure", "--disable-silent-rules", *std_configure_args
-    # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
+
+    ohai "Installing to #{bin}"
     bin.install "homebrew-mini-test" => "ptree"
   end
 
